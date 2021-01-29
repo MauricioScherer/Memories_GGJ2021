@@ -2371,3 +2371,13 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  2.101 seconds
 Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3332 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 176.0 MB.
+System memory in use after: 173.8 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4254.
+Total: 9.152600 ms (FindLiveObjects: 0.677400 ms CreateObjectMapping: 0.218600 ms MarkObjects: 3.175700 ms  DeleteObjects: 5.079400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
