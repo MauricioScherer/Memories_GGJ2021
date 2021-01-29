@@ -61,7 +61,13 @@ namespace VHS
             {
                 m_pitchTranform = transform.GetChild(0).transform;
                 m_cam = GetComponentInChildren<Camera>();
-            }
+            }   
+        
+        public void SetSensitivity(float p_value)
+        {
+            sensitivity.x = p_value;
+            sensitivity.y = p_value;
+        }
 
             void InitValues()
             {
