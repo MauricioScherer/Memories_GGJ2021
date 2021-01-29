@@ -312,13 +312,14 @@ namespace VHS
 
                 protected virtual bool CanRun()
                 {
-                    Vector3 _normalizedDir = Vector3.zero;
+                    //Vector3 _normalizedDir = Vector3.zero;
 
-                    if(m_smoothFinalMoveDir != Vector3.zero)
-                        _normalizedDir = m_smoothFinalMoveDir.normalized;
+                    //if(m_smoothFinalMoveDir != Vector3.zero)
+                    //    _normalizedDir = m_smoothFinalMoveDir.normalized;
 
-                    float _dot = Vector3.Dot(transform.forward,_normalizedDir);
-                    return _dot >= canRunThreshold && !movementInputData.IsCrouching ? true : false;
+                    //float _dot = Vector3.Dot(transform.forward,_normalizedDir);
+                    //return _dot >= canRunThreshold && !movementInputData.IsCrouching ? true : false;
+                    return false;
                 }
 
                 protected virtual void CalculateMovementDirection()
