@@ -3,7 +3,12 @@ guid: c17d0cd73f53eac4a8e6eae14f3d3f76
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chao_teto_mat
+    second: {fileID: 2100000, guid: 5087206ee97f7ad45925c91bb6f55c49, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
