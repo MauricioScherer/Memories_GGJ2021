@@ -9,7 +9,11 @@ public class GetObject : MonoBehaviour
     private GameObject currentObject;
 
     [SerializeField] private float distance;
+    [SerializeField] private float speedMove;
     [SerializeField] private Transform target;
+    [SerializeField] private GameObject uiView;
+    [SerializeField] private GameObject feedbackView;
+    [SerializeField] private GameObject keyInHand;
 
     void Update()
     {
@@ -27,6 +31,28 @@ public class GetObject : MonoBehaviour
                     currentObject.GetComponent<Rigidbody>().useGravity = false;
                 }
             }
+            else if(hit.collider.CompareTag("Door"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<Door>().InteractDoor();
+
+                    if(hit.collider.GetComponent<Door>().GetOpenDoorLocked())
+                        keyInHand.SetActive(false);
+                }
+            }
+            else if(hit.collider.CompareTag("Key"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<Key>().GetKey();
+                    keyInHand.SetActive(true);
+                }
+            }
             else
             {
                 visualizeObject = false;
@@ -37,11 +63,17 @@ public class GetObject : MonoBehaviour
             visualizeObject = false;
         }
 
-        if(stayObject)
+        if(uiView.activeSelf != visualizeObject)
+        {
+            uiView.SetActive(visualizeObject);
+            //feedbackView.SetActive(visualizeObject);
+        }
+
+        if (stayObject)
         {
             if(Input.GetMouseButton(0))
             {
-                currentObject.transform.position = Vector3.MoveTowards(currentObject.transform.position, target.position, 2.0f * Time.deltaTime);
+                currentObject.transform.position = Vector3.MoveTowards(currentObject.transform.position, target.position, speedMove * Time.deltaTime);
             }
             else
             {
@@ -50,7 +82,5 @@ public class GetObject : MonoBehaviour
                 stayObject = false;
             }
         }
-
-        //Debug.DrawRay(transform.position, transform.forward, visualizeObject ? Color.green : Color.yellow, distance);
     }
 }
