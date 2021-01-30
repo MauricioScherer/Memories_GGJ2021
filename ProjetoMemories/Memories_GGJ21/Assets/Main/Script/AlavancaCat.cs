@@ -8,6 +8,7 @@ public class AlavancaCat : MonoBehaviour
     private Animator anim;
 
     [SerializeField] private RayCat rayCat;
+    [SerializeField] private AudioClip[] clips;
 
     private void Start()
     {
@@ -22,6 +23,10 @@ public class AlavancaCat : MonoBehaviour
             {
                 anim.SetTrigger("Push");
                 podeInteragir = false;
+
+                int sort = Random.Range(0, clips.Length);
+                GetComponent<AudioSource>().clip = clips[sort];
+                GetComponent<AudioSource>().Play();
             }
         }
     }

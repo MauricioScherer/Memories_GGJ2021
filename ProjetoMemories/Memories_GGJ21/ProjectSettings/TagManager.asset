@@ -11,6 +11,7 @@ TagManager:
   - TargetGato
   - AlavancaGato
   - FinalPuzzleCat
+  - GameManager
   layers:
   - Default
   - TransparentFX

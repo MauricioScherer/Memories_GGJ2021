@@ -1,0 +1,649 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 16350 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Aplicativos\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+60647
+Successfully changed project path to: E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 169.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002403 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 162.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.536 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 169.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.778 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.3 MB.
+System memory in use after: 196.5 MB.
+
+Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 4412.
+Total: 9.222700 ms (FindLiveObjects: 0.875900 ms CreateObjectMapping: 0.480100 ms MarkObjects: 4.542100 ms  DeleteObjects: 3.322300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody01_Celeste.wav
+  artifactKey: Guid(7e9296ee4a481b2418ff16e017e15081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody01_Celeste.wav using Guid(7e9296ee4a481b2418ff16e017e15081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c89b5729c16116a04dfebc2e44183c2') in 0.253884 seconds
+  Import took 0.264210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioOpening.wav
+  artifactKey: Guid(d53091f75c8fb254896d07b36e11e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioOpening.wav using Guid(d53091f75c8fb254896d07b36e11e29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a15a2c0b52784a249bb24b857d9ddb') in 0.030773 seconds
+  Import took 0.040317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note04_Piano.wav
+  artifactKey: Guid(f2e6c8fee9c30a44ba225c20d712eae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note04_Piano.wav using Guid(f2e6c8fee9c30a44ba225c20d712eae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54be0bcae1e5d5bc0fc16fcf93aba4c') in 0.023768 seconds
+  Import took 0.033270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody01_Piano.wav
+  artifactKey: Guid(cb1588356f1d32746b48122e2b625ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody01_Piano.wav using Guid(cb1588356f1d32746b48122e2b625ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556f3b494c9a23f042ddd3243bd151cf') in 0.023825 seconds
+  Import took 0.033146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note03_Celeste.wav
+  artifactKey: Guid(47cecb4e2b6132a42997d9b421bc2fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note03_Celeste.wav using Guid(47cecb4e2b6132a42997d9b421bc2fa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9efc6b7bb61275abeb244e6d80d6f0') in 0.022946 seconds
+  Import took 0.032496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody02_Piano.wav
+  artifactKey: Guid(55d8785a252e69c4887b0b995d5c71d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody02_Piano.wav using Guid(55d8785a252e69c4887b0b995d5c71d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285259be371fc3fdd52f2bdde6b11898') in 0.032877 seconds
+  Import took 0.042234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note01_Piano.wav
+  artifactKey: Guid(72ece8a3786f30347844fc5eca072c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note01_Piano.wav using Guid(72ece8a3786f30347844fc5eca072c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c30e95012ebd088a412c6b8e207f8301') in 0.023267 seconds
+  Import took 0.032454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note05_Piano.wav
+  artifactKey: Guid(eb70c40cbd4d435438810c4096e25990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note05_Piano.wav using Guid(eb70c40cbd4d435438810c4096e25990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca34826b70f3babc1c024a851e91d972') in 0.033971 seconds
+  Import took 0.043956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note04_Celeste.wav
+  artifactKey: Guid(05cb14d4e8f4edd409561ee3d958e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note04_Celeste.wav using Guid(05cb14d4e8f4edd409561ee3d958e27c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213a5e3375ba90a38f38949753ed4431') in 0.026518 seconds
+  Import took 0.036247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/PutTapeInRadio.wav
+  artifactKey: Guid(7cb44f0210704f342a74996c7726f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/PutTapeInRadio.wav using Guid(7cb44f0210704f342a74996c7726f3e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cc9f1e51cf6edbbe33fb6e4717966f') in 0.021910 seconds
+  Import took 0.030333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioClickButton_002.wav
+  artifactKey: Guid(b05cd479ba306a84c956fbbda687c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioClickButton_002.wav using Guid(b05cd479ba306a84c956fbbda687c1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0b110bb3c84b553c7f3caa03031891') in 0.023016 seconds
+  Import took 0.032583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note01_Celeste.wav
+  artifactKey: Guid(8f774f8f22fb03b48a1569cc8b6c888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note01_Celeste.wav using Guid(8f774f8f22fb03b48a1569cc8b6c888c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f2c66451cb3534348343390d5a1fc5') in 0.025202 seconds
+  Import took 0.034401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody02_Celeste.wav
+  artifactKey: Guid(d9eb8c3fc6fbd664897e17e150d3741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioMelody02_Celeste.wav using Guid(d9eb8c3fc6fbd664897e17e150d3741a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bff6003c227fe293ee2ae7725142dca') in 0.023914 seconds
+  Import took 0.034853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note03_Piano.wav
+  artifactKey: Guid(6bf19eb9e6be2c940ab069975e8493f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note03_Piano.wav using Guid(6bf19eb9e6be2c940ab069975e8493f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c8def64b223de162323bd774bdb198') in 0.027522 seconds
+  Import took 0.036867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note02_Celeste.wav
+  artifactKey: Guid(ebab8772d0c55f04498674b11e2b0181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note02_Celeste.wav using Guid(ebab8772d0c55f04498674b11e2b0181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8024d1423dde8b278aca65e25634a99d') in 0.026077 seconds
+  Import took 0.034655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note02_Piano.wav
+  artifactKey: Guid(da2394c36ea77ed4e9a6f592bdeae39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note02_Piano.wav using Guid(da2394c36ea77ed4e9a6f592bdeae39c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c90812ef5ba4ea5658d00f3dcbc6678') in 0.023942 seconds
+  Import took 0.034122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/RadioClickButton_001.wav
+  artifactKey: Guid(8003c6f7ef8dfbc41a69adb1fa8f3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/RadioClickButton_001.wav using Guid(8003c6f7ef8dfbc41a69adb1fa8f3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4859893cc825dff23639163c9e8cb596') in 0.032830 seconds
+  Import took 0.042716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Main/Sound/Gameplay/Girl Puzzle/Note05_Celeste.wav
+  artifactKey: Guid(e9c7b03bced6b674284f07a7fd48a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/Gameplay/Girl Puzzle/Note05_Celeste.wav using Guid(e9c7b03bced6b674284f07a7fd48a358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccf8c09b38d416acebf5bff8dc0db23') in 0.026006 seconds
+  Import took 0.035564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 72.739943 seconds.
+  path: Assets/Main/Sound/TrilhoTemp.wav
+  artifactKey: Guid(2ea851615e378a0428ed6bf5ad052118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/TrilhoTemp.wav using Guid(2ea851615e378a0428ed6bf5ad052118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7b0960210f8af39985c9abbcfe5fd0') in 0.033128 seconds
+  Import took 0.043985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.045444 seconds.
+  path: Assets/Main/Sound/TrilhoTempComGato1.wav
+  artifactKey: Guid(b187221b075b3fc49af858f5ee76bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/TrilhoTempComGato1.wav using Guid(b187221b075b3fc49af858f5ee76bb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d1e03e1179ec66e7fd872d883875fa') in 0.035353 seconds
+  Import took 0.045012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Main/Sound/TrilhoTempComGato2.wav
+  artifactKey: Guid(8e75c3c078bc04d49b95ac0948785cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Sound/TrilhoTempComGato2.wav using Guid(8e75c3c078bc04d49b95ac0948785cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eeee14656f26c34f6948f1ed54238f') in 0.030050 seconds
+  Import took 0.041148 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.239 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3689 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 185.3 MB.
+System memory in use after: 183.6 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 4423.
+Total: 9.647100 ms (FindLiveObjects: 1.225800 ms CreateObjectMapping: 0.462500 ms MarkObjects: 5.045400 ms  DeleteObjects: 2.911700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 246.762379 seconds.
+  path: Assets/Main/Modelos/Instrumentos/banco_piano.fbx
+  artifactKey: Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/banco_piano.fbx using Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbc8709488e383638ed2d287b78113f') in 1.745855 seconds
+  Import took 1.761340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Main/Modelos/Instrumentos/timpano.fbx
+  artifactKey: Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/timpano.fbx using Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd704a5504ea8079c1052f6ba1f03ec7a') in 0.080381 seconds
+  Import took 0.093047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx
+  artifactKey: Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx using Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbaca11d982b294d4981a2e01ef257c9') in 0.085223 seconds
+  Import took 0.094713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_2.fbx
+  artifactKey: Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_2.fbx using Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3805a0d8d7539ed0fa95cd38c4de8340') in 0.085620 seconds
+  Import took 0.094389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Main/Modelos/Instrumentos/xilofone.fbx
+  artifactKey: Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/xilofone.fbx using Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340d6cbb86c2e783236cd73e59db0d9b') in 0.076571 seconds
+  Import took 0.085799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_1.fbx
+  artifactKey: Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_1.fbx using Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b23bae909359848bf1f81ad6b03fca') in 0.069238 seconds
+  Import took 0.079882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Main/Modelos/Instrumentos/piano.fbx
+  artifactKey: Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/piano.fbx using Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a3bb8af19668cad1aeb9f8ac25aef3') in 0.179752 seconds
+  Import took 0.189714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Main/Modelos/Instrumentos/radio.fbx
+  artifactKey: Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/radio.fbx using Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '040d6a72e5126a39ddcebb06edac6887') in 0.128375 seconds
+  Import took 0.137770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Main/Modelos/Instrumentos/gaita.fbx
+  artifactKey: Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/gaita.fbx using Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ff915df5da78fe0d2f849072a013c6') in 0.069934 seconds
+  Import took 0.079678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx
+  artifactKey: Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx using Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07e3b886c16780c6c319c78d2d6f3df') in 0.076659 seconds
+  Import took 0.086326 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.045853 seconds.
+  path: Assets/Main/Modelos/Instrumentos/timpano.fbx
+  artifactKey: Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/timpano.fbx using Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbe05b26cfbcfdf7c5efb01bb8b109e') in 0.060568 seconds
+  Import took 0.070504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx
+  artifactKey: Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx using Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75117cff12e3a3a174372007ad8a0d2') in 0.056715 seconds
+  Import took 0.067312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_2.fbx
+  artifactKey: Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_2.fbx using Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76604c29f061da088788acaa0349f8ca') in 0.060920 seconds
+  Import took 0.071605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Main/Modelos/Instrumentos/xilofone.fbx
+  artifactKey: Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/xilofone.fbx using Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6a1fe1024dbad565a4297932eb713d') in 0.066158 seconds
+  Import took 0.077924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_1.fbx
+  artifactKey: Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_1.fbx using Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31117cfe432b451f5cab7ea450ea160c') in 0.061581 seconds
+  Import took 0.071913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Main/Modelos/Instrumentos/piano.fbx
+  artifactKey: Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/piano.fbx using Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ce0a72f678c8dae49b09107a7ae47b') in 0.219005 seconds
+  Import took 0.230373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Main/Modelos/Instrumentos/radio.fbx
+  artifactKey: Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/radio.fbx using Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9851336da5e663b49b35abace28a6b3') in 0.118255 seconds
+  Import took 0.129178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Main/Modelos/Instrumentos/gaita.fbx
+  artifactKey: Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/gaita.fbx using Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566bb3fe3696d511d2a2d5b77cd9c17c') in 0.059353 seconds
+  Import took 0.069527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Main/Modelos/Instrumentos/banco_piano.fbx
+  artifactKey: Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/banco_piano.fbx using Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba67ee8a861ec37e1c622c4de67e6e4') in 0.059345 seconds
+  Import took 0.069757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx
+  artifactKey: Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx using Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '604bbf2f1823ca7c4dd1070d629e2763') in 0.062129 seconds
+  Import took 0.072072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 366.007898 seconds.
+  path: Assets/Main/Modelos/Instrumentos/piano.fbx
+  artifactKey: Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/piano.fbx using Guid(7d255be3f3f65ad4ab7b265635bcd633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a8fd1417409536517d2ee81cf2bb70') in 0.204474 seconds
+  Import took 0.215022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.586965 seconds.
+  path: Assets/Main/Modelos/Instrumentos/timpano.fbx
+  artifactKey: Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/timpano.fbx using Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9103bee077a38bd405976baf4ed394') in 0.069842 seconds
+  Import took 0.082812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx
+  artifactKey: Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_timpano.fbx using Guid(06151f2a048e403428384f2da58a9da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de66d14c35c6e65ae0cc58bfd52627fb') in 0.063610 seconds
+  Import took 0.073301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Main/Modelos/Instrumentos/timpano.fbx
+  artifactKey: Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/timpano.fbx using Guid(1665575623aaf894cb5872ea33e3168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9103bee077a38bd405976baf4ed394') in 0.100132 seconds
+  Import took 0.115813 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_2.fbx
+  artifactKey: Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_2.fbx using Guid(1bfe46b1d32627d448cedeb5f6430b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca7a3871110720bfbd0d9dd69ba6d4d') in 0.083837 seconds
+  Import took 0.095141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Main/Modelos/Instrumentos/xilofone.fbx
+  artifactKey: Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/xilofone.fbx using Guid(a25cff23de8e39a478680b8581935e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96f0680751d8bedf335e74feb00c447') in 0.071727 seconds
+  Import took 0.082194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Main/Modelos/Instrumentos/fita_1.fbx
+  artifactKey: Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/fita_1.fbx using Guid(32c6943095aafdf45b04a0295d76b281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2287fe96e6322be87b6060ad1a5d5291') in 0.054717 seconds
+  Import took 0.065458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Main/Modelos/Instrumentos/radio.fbx
+  artifactKey: Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/radio.fbx using Guid(bcfe7ac8f01850c4b8377d0b5f1fbea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e539a2409aa104db240c665ee33523bd') in 0.158985 seconds
+  Import took 0.171456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Main/Modelos/Instrumentos/gaita.fbx
+  artifactKey: Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/gaita.fbx using Guid(754ddd4b6abf9fc4c998969455740d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd561b7f61feda4a36be95a8fa27f810c') in 0.063927 seconds
+  Import took 0.074749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Main/Modelos/Instrumentos/banco_piano.fbx
+  artifactKey: Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/banco_piano.fbx using Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80c3766aed2f0102e8e4752b17150bf') in 0.056388 seconds
+  Import took 0.067501 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx
+  artifactKey: Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/baqueta_xilofone.fbx using Guid(e5280d34e60eb3a48a4a9f71050c5436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d6cbaf913282b784899f9f0bef9f95') in 0.055964 seconds
+  Import took 0.067449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Main/Modelos/Instrumentos/banco_piano.fbx
+  artifactKey: Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Instrumentos/banco_piano.fbx using Guid(f252abdfceaecca4cb5b06d52217d23a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80c3766aed2f0102e8e4752b17150bf') in 0.058742 seconds
+  Import took 0.069721 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003434 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.435 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.7 MB.
+System memory in use after: 191.3 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4592.
+Total: 8.765300 ms (FindLiveObjects: 0.888100 ms CreateObjectMapping: 0.230100 ms MarkObjects: 4.503500 ms  DeleteObjects: 3.141200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 333.937240 seconds.
+  path: Assets/Main/Modelos/boneca_teste.fbx
+  artifactKey: Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_teste.fbx using Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a76b460b3a61391df6dfb3383cbee6b') in 1.017786 seconds
+  Import took 1.038160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.295728 seconds.
+  path: Assets/Main/Modelos/boneca_teste.fbx
+  artifactKey: Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_teste.fbx using Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856dcc1f640bb897b50b724adf896095') in 0.183820 seconds
+  Import took 0.194585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.324448 seconds.
+  path: Assets/Main/Modelos/boneca_teste.fbx
+  artifactKey: Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_teste.fbx using Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91523fab4f29c9fa7f45be5388591c7b') in 0.183480 seconds
+  Import took 0.194009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.016705 seconds.
+  path: Assets/Main/Anim
+  artifactKey: Guid(6490a5dca71c2874a8343f7ff224aabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim using Guid(6490a5dca71c2874a8343f7ff224aabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360cdfe7e35db64e1a31877826dbecaf') in 0.011552 seconds
+  Import took 0.021173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.607728 seconds.
+  path: Assets/Main/Anim/Menina.controller
+  artifactKey: Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/Menina.controller using Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41adba0bcab88e68a3da86f0625511c') in 0.017542 seconds
+  Import took 0.028227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.700301 seconds.
+  path: Assets/Main/Modelos/boneca_teste.fbx
+  artifactKey: Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_teste.fbx using Guid(50dc72a807c719742b9815040840e3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3936559be2933be78328ac9c6d0e6617') in 0.161961 seconds
+  Import took 0.171574 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003627 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.360 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.5 MB.
+System memory in use after: 191.1 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4696.
+Total: 9.549100 ms (FindLiveObjects: 0.896300 ms CreateObjectMapping: 0.331100 ms MarkObjects: 4.956500 ms  DeleteObjects: 3.363700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
