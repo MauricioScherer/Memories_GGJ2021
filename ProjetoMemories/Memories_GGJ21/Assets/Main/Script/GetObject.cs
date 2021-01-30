@@ -14,6 +14,7 @@ public class GetObject : MonoBehaviour
     [SerializeField] private GameObject uiView;
     [SerializeField] private GameObject feedbackView;
     [SerializeField] private GameObject keyInHand;
+    [SerializeField] private Transform player;
 
     void Update()
     {
@@ -29,6 +30,12 @@ public class GetObject : MonoBehaviour
                     stayObject = true;
                     currentObject = hit.collider.gameObject;
                     currentObject.GetComponent<Rigidbody>().useGravity = false;
+
+                    if (currentObject.gameObject.name == "Lanterna")
+                    {
+                        currentObject.transform.eulerAngles = player.transform.eulerAngles;
+                        currentObject.transform.parent = player.transform;                        
+                    }
                 }
             }
             else if(hit.collider.CompareTag("Door"))
@@ -53,6 +60,15 @@ public class GetObject : MonoBehaviour
                     keyInHand.SetActive(true);
                 }
             }
+            else if(hit.collider.CompareTag("AlavancaGato"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<AlavancaCat>().InteractAlavancaCat();
+                }
+            }
             else
             {
                 visualizeObject = false;
@@ -66,7 +82,6 @@ public class GetObject : MonoBehaviour
         if(uiView.activeSelf != visualizeObject)
         {
             uiView.SetActive(visualizeObject);
-            //feedbackView.SetActive(visualizeObject);
         }
 
         if (stayObject)
@@ -77,7 +92,11 @@ public class GetObject : MonoBehaviour
             }
             else
             {
+                if (currentObject.gameObject.name == "Lanterna")
+                    currentObject.transform.parent = null;
+
                 currentObject.GetComponent<Rigidbody>().useGravity = true;
+
                 currentObject = null;
                 stayObject = false;
             }

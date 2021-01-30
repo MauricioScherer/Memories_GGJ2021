@@ -7,6 +7,10 @@ TagManager:
   - GetObject
   - Door
   - Key
+  - ParedeGato
+  - TargetGato
+  - AlavancaGato
+  - FinalPuzzleCat
   layers:
   - Default
   - TransparentFX
