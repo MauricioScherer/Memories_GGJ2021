@@ -31,6 +31,10 @@ public class PuzzleMenina : MonoBehaviour
     [SerializeField] Transform meninaTarget;
     [SerializeField] float speedMenina;
     [SerializeField] AudioSource trilhoMeninaMove;
+    [SerializeField] AudioSource choro;
+    [SerializeField] AudioClip[] clipsChoro;
+
+
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
@@ -38,6 +42,15 @@ public class PuzzleMenina : MonoBehaviour
 
     private void Update()
     {
+        if(!choro.isPlaying)
+        {
+            int p_sort = Random.Range(0, clipsChoro.Length);
+            choro.clip = clipsChoro[p_sort];
+            choro.Play();
+
+            print(p_sort);
+        }
+
         if(moveHaste)
         {
             hasteBalao.position = Vector3.MoveTowards(hasteBalao.position, currentTarget.position, speed * Time.deltaTime);
