@@ -14,6 +14,8 @@ public class GetObject : MonoBehaviour
     [SerializeField] private GameObject uiView;
     [SerializeField] private GameObject feedbackView;
     [SerializeField] private GameObject keyInHand;
+    [SerializeField] private GameObject fita1InHand;
+    [SerializeField] private GameObject fita2InHand;
     [SerializeField] private Transform player;
 
     void Update()
@@ -76,6 +78,105 @@ public class GetObject : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     hit.collider.GetComponent<TeclaPiano>().Click();
+                }
+            }
+            else if(hit.collider.CompareTag("Fita1"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && !fita2InHand.activeSelf && !fita1InHand.activeSelf)
+                {
+                    Destroy(hit.collider.gameObject);
+                    fita1InHand.SetActive(true);
+                }
+            }
+            else if (hit.collider.CompareTag("Fita2"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && !fita1InHand.activeSelf && !fita2InHand.activeSelf)
+                {
+                    Destroy(hit.collider.gameObject);
+                    fita2InHand.SetActive(true);
+                }
+            }
+            else if(hit.collider.CompareTag("Radio1"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    if(!fita2InHand.activeSelf)
+                    {
+                        if (!hit.collider.GetComponent<Radio>().GetRadioComFita())
+                        {
+                            if (fita1InHand.activeSelf)
+                            {
+                                fita1InHand.SetActive(false);
+                                hit.collider.GetComponent<Radio>().ColocaFita();
+                            }
+                            else
+                            {
+                                hit.collider.GetComponent<Radio>().PlayRadioSemFita();
+                            }
+                        }
+                        else
+                        {
+                            hit.collider.GetComponent<Radio>().PlayRadio();
+                        }
+                    }
+                    else if(!hit.collider.GetComponent<Radio>().GetRadioComFita())
+                    {
+                        hit.collider.GetComponent<Radio>().PlayRadioSemFita();
+                    }
+                    else
+                    {
+                        hit.collider.GetComponent<Radio>().PlayRadio();
+                    }
+                }
+            }
+            else if (hit.collider.CompareTag("Radio2"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    if (!fita1InHand.activeSelf)
+                    {
+                        if (!hit.collider.GetComponent<Radio>().GetRadioComFita())
+                        {
+                            if (fita2InHand.activeSelf)
+                            {
+                                fita2InHand.SetActive(false);
+                                hit.collider.GetComponent<Radio>().ColocaFita();
+                            }
+                            else
+                            {
+                                hit.collider.GetComponent<Radio>().PlayRadioSemFita();
+                            }
+                        }
+                        else
+                        {
+                            hit.collider.GetComponent<Radio>().PlayRadio();
+                        }
+                    }
+                    else if (!hit.collider.GetComponent<Radio>().GetRadioComFita())
+                    {
+                        hit.collider.GetComponent<Radio>().PlayRadioSemFita();
+                    }
+                    else
+                    {
+                        hit.collider.GetComponent<Radio>().PlayRadio();
+                    }
+                }
+            }
+            else if(hit.collider.CompareTag("DoorArmario"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<OpenDoor>().InteractDoor();
                 }
             }
             else
