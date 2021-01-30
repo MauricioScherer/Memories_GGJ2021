@@ -15,6 +15,8 @@ public class RayCat : MonoBehaviour
     [SerializeField] private GameObject fechamento;
     private bool finalPuzzle = false;
 
+    [SerializeField] private AudioClip[] clips;
+
     private void Start()
     {
         canMove = true;
@@ -76,6 +78,10 @@ public class RayCat : MonoBehaviour
             {
                 transform.localPosition = new Vector3(transform.transform.localPosition.x, transform.transform.localPosition.y, transform.transform.localPosition.z + distanceMove);
             }
+
+            int sort = Random.Range(0, clips.Length);
+            GetComponent<AudioSource>().clip = clips[sort];
+            GetComponent<AudioSource>().Play();
         }
         else
         {

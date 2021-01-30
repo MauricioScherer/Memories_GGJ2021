@@ -16,7 +16,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Slider sensitivity;
     [SerializeField] private float sensitivityStandard;
 
+    [Header("Sound")]
     public AudioMixer masterMixer;
+    [SerializeField] private AudioSource music;
 
     // Start is called before the first frame update
     void Start()
@@ -93,5 +95,16 @@ public class GameManager : MonoBehaviour
         masterMixer.SetFloat("Volume", volume.value);
 
         //adicionar reset do volume
+    }
+
+    public void SetClipMusic(AudioClip p_clip)
+    {
+        music.clip = p_clip;
+    }
+
+    public void PlayerMusic()
+    {
+        if(!music.isPlaying)
+            music.Play();
     }
 }
