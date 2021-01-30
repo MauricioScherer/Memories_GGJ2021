@@ -10,6 +10,8 @@ public class Door : MonoBehaviour
 
     [SerializeField] private bool lockedDoor;
     [SerializeField] private GameObject key;
+    [SerializeField] private AudioClip[] clips;
+    [SerializeField] private AudioSource sound;
 
     private void Start()
     {
@@ -33,6 +35,9 @@ public class Door : MonoBehaviour
                 anim.SetBool("Close", true);
                 anim.SetBool("Open", false);
             }
+
+            sound.clip = clips[0];
+            sound.Play();
         }
         else
         {
@@ -48,6 +53,9 @@ public class Door : MonoBehaviour
             else
             {
                 anim.SetTrigger("Locked");
+
+                sound.clip = clips[1];
+                sound.Play();
             }
         }
     }

@@ -19,11 +19,13 @@ public class GameManager : MonoBehaviour
     [Header("Sound")]
     public AudioMixer masterMixer;
     [SerializeField] private AudioSource music;
+    private float volumeMusic;
+    public bool volumeReduce;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        volumeMusic = music.volume;
     }
 
     private void Update()
@@ -37,6 +39,18 @@ public class GameManager : MonoBehaviour
 
                 pauseMenu.SetActive(true);
                 Time.timeScale = 0.0f;
+            }
+        }
+
+        if(volumeReduce)
+        {
+            music.volume -= 0.05f;
+
+            if(music.volume <= 0)
+            {
+                music.Stop();
+                music.volume = volumeMusic;
+                volumeReduce = false;
             }
         }
     }
@@ -106,5 +120,10 @@ public class GameManager : MonoBehaviour
     {
         if(!music.isPlaying)
             music.Play();
+    }
+
+    public void StopedMusic()
+    {
+        volumeReduce = true;
     }
 }
