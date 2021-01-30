@@ -13,6 +13,11 @@ TagManager:
   - FinalPuzzleCat
   - GameManager
   - TeclaPiano
+  - Fita1
+  - Fita2
+  - Radio1
+  - Radio2
+  - DoorArmario
   layers:
   - Default
   - TransparentFX
