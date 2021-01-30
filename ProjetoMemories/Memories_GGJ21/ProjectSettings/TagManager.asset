@@ -12,6 +12,7 @@ TagManager:
   - AlavancaGato
   - FinalPuzzleCat
   - GameManager
+  - TeclaPiano
   layers:
   - Default
   - TransparentFX

@@ -69,6 +69,15 @@ public class GetObject : MonoBehaviour
                     hit.collider.GetComponent<AlavancaCat>().InteractAlavancaCat();
                 }
             }
+            else if(hit.collider.CompareTag("TeclaPiano"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<TeclaPiano>().Click();
+                }
+            }
             else
             {
                 visualizeObject = false;
