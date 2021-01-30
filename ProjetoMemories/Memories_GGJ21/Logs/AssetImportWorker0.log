@@ -1,0 +1,649 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'pt' Physical Memory: 16350 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Aplicativos\Unity\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50227
+Successfully changed project path to: E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 145.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Portfolio/GGJ/Memories_GGJ2021/ProjetoMemories/Memories_GGJ21/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   
+    VRAM:     6052 MB
+    Driver:   27.21.14.6109
+Initialize mono
+Mono path[0] = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Aplicativos/Unity/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002357 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 156.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.313 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003827 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 145.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.648 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3998 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 196.3 MB.
+
+Unloading 173 unused Assets to reduce memory usage. Loaded Objects now: 4412.
+Total: 8.759700 ms (FindLiveObjects: 0.986400 ms CreateObjectMapping: 0.537600 ms MarkObjects: 3.904700 ms  DeleteObjects: 3.329100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx
+  artifactKey: Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx using Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008783a9a732ba0c331333212e27d260') in 1.397715 seconds
+  Import took 1.412106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_desmontada.fbx
+  artifactKey: Guid(ce1b2b127eb2c544fb936410f51a3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_desmontada.fbx using Guid(ce1b2b127eb2c544fb936410f51a3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20fc3391f64c52897be6afd6d9eda86') in 0.199306 seconds
+  Import took 0.208989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx
+  artifactKey: Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx using Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af6add4ee74e91276d91ed20d28ffb5d') in 0.186608 seconds
+  Import took 0.196544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx
+  artifactKey: Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx using Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30cfe85f1a0f2ae6948187fe448efce2') in 0.200497 seconds
+  Import took 0.210314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.741785 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx
+  artifactKey: Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx using Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a3b0a5b4254fd172a590088ed5c1eb') in 0.175856 seconds
+  Import took 0.187300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx
+  artifactKey: Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx using Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3334244ae9b8fb8629aa0c40efc488c') in 0.164768 seconds
+  Import took 0.174619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_desmontada.fbx
+  artifactKey: Guid(ce1b2b127eb2c544fb936410f51a3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_desmontada.fbx using Guid(ce1b2b127eb2c544fb936410f51a3724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c015a2a56a3c154ff74c2374e8151fe') in 0.244290 seconds
+  Import took 0.256338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx
+  artifactKey: Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx using Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4811b2faf84e2a40c984663312eac710') in 0.182615 seconds
+  Import took 0.192132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.911192 seconds.
+  path: Assets/Main/Modelos/Armarios/armario.fbx
+  artifactKey: Guid(25b5dfe1e2144414592d16ae4631daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Armarios/armario.fbx using Guid(25b5dfe1e2144414592d16ae4631daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cab528d34dc25844d89608fb537b5cb') in 0.144275 seconds
+  Import took 0.155913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.300345 seconds.
+  path: Assets/Main/Modelos/Armarios/armario_pequeno.fbx
+  artifactKey: Guid(c90e113465b26204db0de0b739c1dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Armarios/armario_pequeno.fbx using Guid(c90e113465b26204db0de0b739c1dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b62140181fbb9a726baf604dfc2b9') in 0.128401 seconds
+  Import took 0.140976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.404779 seconds.
+  path: Assets/Main/Modelos/Armarios/armario_pequeno.fbx
+  artifactKey: Guid(c90e113465b26204db0de0b739c1dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Armarios/armario_pequeno.fbx using Guid(c90e113465b26204db0de0b739c1dab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824e8942b95638c9b384bde76e3d4d13') in 0.100388 seconds
+  Import took 0.110297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.451995 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_desligando.fbx
+  artifactKey: Guid(b3ade39f6073cce4b90c60a0aada25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_desligando.fbx using Guid(b3ade39f6073cce4b90c60a0aada25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febead8f703c6e0ea521295f679e607c') in 0.176432 seconds
+  Import took 0.187296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360694 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_iniciando_riso.fbx
+  artifactKey: Guid(90db5497f7bf7a64db4ad789c030702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_iniciando_riso.fbx using Guid(90db5497f7bf7a64db4ad789c030702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ed20c69995e2eb57daddde8d710a639') in 0.200950 seconds
+  Import took 0.212958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.774953 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_iniciando_riso.fbx
+  artifactKey: Guid(90db5497f7bf7a64db4ad789c030702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_iniciando_riso.fbx using Guid(90db5497f7bf7a64db4ad789c030702a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f9520ef6c5bcb9b2f59403a23680c29') in 0.214992 seconds
+  Import took 0.225520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.813979 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/base_botao.fbx
+  artifactKey: Guid(027cf61b14785034a9cbd6c41ec966ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/base_botao.fbx using Guid(027cf61b14785034a9cbd6c41ec966ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2481d4b7af28f4820431e9a3f872a783') in 0.138947 seconds
+  Import took 0.152263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.464051 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/base_botao.fbx
+  artifactKey: Guid(027cf61b14785034a9cbd6c41ec966ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/base_botao.fbx using Guid(027cf61b14785034a9cbd6c41ec966ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf53f16c7a4fb8abbf82509fc5e0028') in 0.119242 seconds
+  Import took 0.130303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.849757 seconds.
+  path: Assets/Main/Modelos/coracao_animado/base_coracao_estatico.fbx
+  artifactKey: Guid(d571746af201ab145a3f13ce85a51ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/coracao_animado/base_coracao_estatico.fbx using Guid(d571746af201ab145a3f13ce85a51ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f874d2f44b6377545a34c9c4f0b2e62b') in 0.110528 seconds
+  Import took 0.121690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.773853 seconds.
+  path: Assets/Main/Modelos/coracao_animado/base_coracao_estatico.fbx
+  artifactKey: Guid(d571746af201ab145a3f13ce85a51ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/coracao_animado/base_coracao_estatico.fbx using Guid(d571746af201ab145a3f13ce85a51ff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5992931a448a3b6ae5988ef66127f374') in 0.088437 seconds
+  Import took 0.100565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.045268 seconds.
+  path: Assets/Main/Modelos/sala_tv/controle_remoto.fbx
+  artifactKey: Guid(02a6c3cf7466937429f12c159d165c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/sala_tv/controle_remoto.fbx using Guid(02a6c3cf7466937429f12c159d165c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605d24769e7f3d5fd47c4802124f5ab3') in 0.101002 seconds
+  Import took 0.113114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.071178 seconds.
+  path: Assets/Main/Modelos/sala_tv/sofa.fbx
+  artifactKey: Guid(19aedc71fad0b0b458674f39c58aa59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/sala_tv/sofa.fbx using Guid(19aedc71fad0b0b458674f39c58aa59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75330c7534f2c08e40b91af935e90245') in 0.077251 seconds
+  Import took 0.089172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.880626 seconds.
+  path: Assets/Main/Modelos/sala_tv/controle_remoto.fbx
+  artifactKey: Guid(02a6c3cf7466937429f12c159d165c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/sala_tv/controle_remoto.fbx using Guid(02a6c3cf7466937429f12c159d165c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c741f1b4f1084868663e1dbd06108896') in 0.083388 seconds
+  Import took 0.094058 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003928 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3699 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.2 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4587.
+Total: 8.692000 ms (FindLiveObjects: 1.153900 ms CreateObjectMapping: 0.512100 ms MarkObjects: 4.443400 ms  DeleteObjects: 2.581100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1254.431151 seconds.
+  path: Assets/Main/Anim/Menina
+  artifactKey: Guid(3bd45817a94966849b5666464a244a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/Menina using Guid(3bd45817a94966849b5666464a244a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de65fb2e29661c48f9aef21c937def72') in 0.021436 seconds
+  Import took 0.036314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.993271 seconds.
+  path: Assets/Main/Anim/Menina.controller
+  artifactKey: Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/Menina.controller using Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e054a347c021a87bf22cdfd0b9b924') in 0.022980 seconds
+  Import took 0.035595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.320439 seconds.
+  path: Assets/Main/Anim/Menina 1.controller
+  artifactKey: Guid(ac122f8e85ec47d48ac94282076815bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/Menina 1.controller using Guid(ac122f8e85ec47d48ac94282076815bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c6a1b6af68308b07b2168f4dd64089') in 0.012873 seconds
+  Import took 0.025014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.232326 seconds.
+  path: Assets/Main/Anim/MeninaIdle.anim
+  artifactKey: Guid(97d0c7122810c52488534879374093ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/MeninaIdle.anim using Guid(97d0c7122810c52488534879374093ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff237e299f9bd3d67a26b157fddb868') in 0.013214 seconds
+  Import took 0.023217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007923 seconds.
+  path: Assets/Main/Anim/MeninaIdle.anim
+  artifactKey: Guid(97d0c7122810c52488534879374093ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/MeninaIdle.anim using Guid(97d0c7122810c52488534879374093ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff237e299f9bd3d67a26b157fddb868') in 0.005174 seconds
+  Import took 0.020396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.568594 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx
+  artifactKey: Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_iniciando_choro.fbx using Guid(8b39a85c2a3e5224fb697de47f3f2fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c208f58be24b77f0ebd91337202f16') in 1.004121 seconds
+  Import took 1.016169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.081700 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx
+  artifactKey: Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_chorando.fbx using Guid(ab97cabdc85d3134282649c8afa2fed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d10a10d455f90008518ef2e04d31b5a') in 0.292138 seconds
+  Import took 0.306241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.725969 seconds.
+  path: Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx
+  artifactKey: Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneca_animada/base_menina_pegando_balao.fbx using Guid(75b8ba68a2cf8d24f8d7c7df59ad0aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fa5e07f89027189c0483976625bb79') in 0.179741 seconds
+  Import took 0.190080 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004001 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.396 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 192.7 MB.
+System memory in use after: 191.3 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4691.
+Total: 9.784700 ms (FindLiveObjects: 0.886300 ms CreateObjectMapping: 0.315500 ms MarkObjects: 4.908700 ms  DeleteObjects: 3.672100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2167.938418 seconds.
+  path: Assets/Main/Modelos/banco_piano.fbx
+  artifactKey: Guid(c320c16e37edb56469324d58c9095e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/banco_piano.fbx using Guid(c320c16e37edb56469324d58c9095e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a53d3452a3858ca13f24fe31c76b5117') in 1.251515 seconds
+  Import took 1.263181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.199011 seconds.
+  path: Assets/Main/Modelos/piano.fbx
+  artifactKey: Guid(6ee29388fde0c9e4eadbcf389075b00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/piano.fbx using Guid(6ee29388fde0c9e4eadbcf389075b00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1417e7b7d3b828bd3e19fd563ef0c8a8') in 0.151437 seconds
+  Import took 0.164009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.216635 seconds.
+  path: Assets/Main/Modelos/piano.fbx
+  artifactKey: Guid(6ee29388fde0c9e4eadbcf389075b00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/piano.fbx using Guid(6ee29388fde0c9e4eadbcf389075b00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266163e08cf9fb3eead3aaec48775fe3') in 0.160182 seconds
+  Import took 0.172509 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.3 MB.
+System memory in use after: 191.9 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4795.
+Total: 9.977900 ms (FindLiveObjects: 0.887500 ms CreateObjectMapping: 0.572100 ms MarkObjects: 4.884900 ms  DeleteObjects: 3.631500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 193.262187 seconds.
+  path: Assets/Main/Anim/Menina.controller
+  artifactKey: Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Anim/Menina.controller using Guid(e43186d9697779543accef82249b90a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd0da81e6347a91306b141c39bb7750') in 0.021216 seconds
+  Import took 0.031677 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.4.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.209 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.2 MB.
+System memory in use after: 191.7 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 4797.
+Total: 9.580000 ms (FindLiveObjects: 0.841900 ms CreateObjectMapping: 0.254100 ms MarkObjects: 5.232300 ms  DeleteObjects: 3.250000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 507.802599 seconds.
+  path: Assets/Main/Modelos/Armarios/armario.fbx
+  artifactKey: Guid(25b5dfe1e2144414592d16ae4631daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Armarios/armario.fbx using Guid(25b5dfe1e2144414592d16ae4631daa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0636a811bb4aefe4a604cec3c6ca7385') in 1.053611 seconds
+  Import took 1.066195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Main/Modelos/Armarios/bide.fbx
+  artifactKey: Guid(7d72ce10cf6902f45901fee996f42460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/Armarios/bide.fbx using Guid(7d72ce10cf6902f45901fee996f42460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f712ca6fa0184fdb2997a6c8102a39f') in 0.128003 seconds
+  Import took 0.137500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.103984 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_desligando.fbx
+  artifactKey: Guid(b3ade39f6073cce4b90c60a0aada25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_desligando.fbx using Guid(b3ade39f6073cce4b90c60a0aada25c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a823de615eeea21bd8aebbcde775b9') in 0.166326 seconds
+  Import took 0.178151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_rindo.fbx
+  artifactKey: Guid(c3ab61266d53ede4ba2401ef8aa87471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_rindo.fbx using Guid(c3ab61266d53ede4ba2401ef8aa87471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e3ad8faa604c7b38af4cb17d208353') in 0.192082 seconds
+  Import took 0.209054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_rindo_looping.fbx
+  artifactKey: Guid(83f3acdf760959d4fa984e79d7756df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_rindo_looping.fbx using Guid(83f3acdf760959d4fa984e79d7756df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fc3f33be0bfa1aad245340507201a6') in 0.175008 seconds
+  Import took 0.186777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/luminaria_parede.fbx
+  artifactKey: Guid(ac92d8f9b1abc2144bb2b03dad87e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/luminaria_parede.fbx using Guid(ac92d8f9b1abc2144bb2b03dad87e75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e27cbba3151be8a08a31330999036a') in 0.103625 seconds
+  Import took 0.114373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/lanterna.fbx
+  artifactKey: Guid(264990e013a259c47be280e0abb82bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/lanterna.fbx using Guid(264990e013a259c47be280e0abb82bbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a424a9b66e9ec40f4b5e4760efd453ba') in 0.099182 seconds
+  Import took 0.110102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_g.fbx
+  artifactKey: Guid(be7db9dec1c670f4eba55a710edf1f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_g.fbx using Guid(be7db9dec1c670f4eba55a710edf1f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4f936e1528ada1032ab27acd110b3f') in 0.073958 seconds
+  Import took 0.085914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/caixa_papelao_pequena.fbx
+  artifactKey: Guid(0afedf08bb68a884e82a2dec8f7053ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/caixa_papelao_pequena.fbx using Guid(0afedf08bb68a884e82a2dec8f7053ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f63386386b7e44c308204ab372033f1e') in 0.077097 seconds
+  Import took 0.087434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/caixa_papelao_grande.fbx
+  artifactKey: Guid(ace5ee95e4666994d8c74d816ef939bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/caixa_papelao_grande.fbx using Guid(ace5ee95e4666994d8c74d816ef939bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aef1e19815074023b6aff0fe3919086') in 0.072782 seconds
+  Import took 0.085780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_r.fbx
+  artifactKey: Guid(2a274fd4f1187fd48b8a9504bafc1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_r.fbx using Guid(2a274fd4f1187fd48b8a9504bafc1a44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82db9af19d1b536733592959851ce5b0') in 0.082513 seconds
+  Import took 0.096018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_b.fbx
+  artifactKey: Guid(33f45c8b2e065f74597f02af2ab4e76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave_b.fbx using Guid(33f45c8b2e065f74597f02af2ab4e76d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c467d23d1f3f0dac46d43e6ce2f71f0a') in 0.080281 seconds
+  Import took 0.096338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/painel_chaves.fbx
+  artifactKey: Guid(517d278130454d04c978fa54d22df0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/painel_chaves.fbx using Guid(517d278130454d04c978fa54d22df0c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d8ae518e177da13108fcea7acd1357') in 0.173541 seconds
+  Import took 0.188371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/luminaria.fbx
+  artifactKey: Guid(23dfe8382ac296b4d821aa91173a4c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/luminaria.fbx using Guid(23dfe8382ac296b4d821aa91173a4c2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467523e02252739c56365252e4097db0') in 0.107262 seconds
+  Import took 0.117934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave.fbx
+  artifactKey: Guid(ad5f3cac46a688c4fb8a0280a36cdcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/caixas_luz_botao_painel_chaves_lanterna/chave.fbx using Guid(ad5f3cac46a688c4fb8a0280a36cdcdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b194935800020055c63e6e8afedd56') in 0.073371 seconds
+  Import took 0.086676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Main/Modelos/boneco_animado/base_menino_desmontado.fbx
+  artifactKey: Guid(fae23434f89fd344c8365fa3f61a2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/boneco_animado/base_menino_desmontado.fbx using Guid(fae23434f89fd344c8365fa3f61a2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cdd5b7250cb9649657d205ee9f221f') in 0.262996 seconds
+  Import took 0.276667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.468704 seconds.
+  path: Assets/Main/Modelos/coracao_animado/base_coracao_partido.fbx
+  artifactKey: Guid(15f80a8992a21bf4bb913fd2a4e36384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/coracao_animado/base_coracao_partido.fbx using Guid(15f80a8992a21bf4bb913fd2a4e36384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5f1263a1b9ebbc2c47c674ffcd2a7c') in 0.089816 seconds
+  Import took 0.101156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.050808 seconds.
+  path: Assets/Main/Modelos/sala_tv/rack.fbx
+  artifactKey: Guid(c66bef3c245094f41a514f41adae4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/sala_tv/rack.fbx using Guid(c66bef3c245094f41a514f41adae4171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d617de86343c0219fcb9ac29ba25fd1') in 0.113748 seconds
+  Import took 0.124718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Main/Modelos/sala_tv/sofa.fbx
+  artifactKey: Guid(19aedc71fad0b0b458674f39c58aa59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Modelos/sala_tv/sofa.fbx using Guid(19aedc71fad0b0b458674f39c58aa59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c8f29a104deba66e48caae9b530283') in 0.064257 seconds
+  Import took 0.074442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.384294 seconds.
+  path: Assets/Main/Key 1.mat
+  artifactKey: Guid(c3be4ee55254e3e4e97027e065ed46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Key 1.mat using Guid(c3be4ee55254e3e4e97027e065ed46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdba68475b3c422965e050d5ef6956a') in 0.064271 seconds
+  Import took 0.077150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008657 seconds.
+  path: Assets/Main/Key 1.mat
+  artifactKey: Guid(c3be4ee55254e3e4e97027e065ed46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Key 1.mat using Guid(c3be4ee55254e3e4e97027e065ed46e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdba68475b3c422965e050d5ef6956a') in 0.036987 seconds
+  Import took 0.050782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.453897 seconds.
+  path: Assets/Main/Prefab/luminaria.prefab
+  artifactKey: Guid(f45b66a2d57936f4f849a6a90cdc3f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Main/Prefab/luminaria.prefab using Guid(f45b66a2d57936f4f849a6a90cdc3f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f24c73d7bf81a90a8be209f6577de9') in 0.062331 seconds
+  Import took 0.073931 seconds .
+
