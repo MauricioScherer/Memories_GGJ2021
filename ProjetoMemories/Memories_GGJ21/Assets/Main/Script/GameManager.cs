@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
     private float volumeMusic;
     public bool volumeReduce;
 
+    [SerializeField] private AudioSource vO;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -125,5 +127,11 @@ public class GameManager : MonoBehaviour
     public void StopedMusic()
     {
         volumeReduce = true;
+    }
+
+    public void PlayVO(AudioClip p_clip)
+    {
+        vO.clip = p_clip;
+        vO.Play();
     }
 }

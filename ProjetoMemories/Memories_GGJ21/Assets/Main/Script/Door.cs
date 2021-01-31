@@ -77,4 +77,9 @@ public class Door : MonoBehaviour
     {
         getKey = true;
     }
+
+    public void Unlocked()
+    {
+        lockedDoor = false;
+    }
 }
