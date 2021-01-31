@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
 
         if(volumeReduce)
         {
-            music.volume -= 0.05f;
+            music.volume -= 0.001f;
 
             if(music.volume <= 0)
             {

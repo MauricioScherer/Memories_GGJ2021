@@ -170,13 +170,13 @@ public class GetObject : MonoBehaviour
                     }
                 }
             }
-            else if(hit.collider.CompareTag("DoorArmario"))
+            else if(hit.collider.CompareTag("Botao"))
             {
                 visualizeObject = true;
 
                 if (Input.GetMouseButtonDown(0))
                 {
-                    hit.collider.GetComponent<OpenDoor>().InteractDoor();
+                    hit.collider.GetComponent<Botao>().Click();
                 }
             }
             else

@@ -18,6 +18,7 @@ TagManager:
   - Radio1
   - Radio2
   - DoorArmario
+  - Botao
   layers:
   - Default
   - TransparentFX
