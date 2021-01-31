@@ -42,7 +42,7 @@ public class PuzzleMenina : MonoBehaviour
 
     private void Update()
     {
-        if(!choro.isPlaying)
+        if(!choro.isPlaying && !moveMenina)
         {
             int p_sort = Random.Range(0, clipsChoro.Length);
             choro.clip = clipsChoro[p_sort];
@@ -66,6 +66,7 @@ public class PuzzleMenina : MonoBehaviour
 
                     menina.SetTrigger("PegarBalao");
                     moveParede = true;
+                    choro.Stop();
 
                     soundParede.Play();
                     gameManager.SetClipMusic(clipMusic);

@@ -16,6 +16,8 @@ public class RayCat : MonoBehaviour
     private bool finalPuzzle = false;
 
     [SerializeField] private AudioClip[] clips;
+    [SerializeField] private GameObject[] confetis;
+
 
     private void Start()
     {
@@ -43,8 +45,10 @@ public class RayCat : MonoBehaviour
                 racao.SetActive(false);
                 fechamento.SetActive(false);
 
-                //TODO
-                //som fim
+                foreach(GameObject obj in confetis)
+                {
+                    obj.SetActive(true);
+                }               
             }
         }
         else

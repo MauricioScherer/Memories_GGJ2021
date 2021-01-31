@@ -49,6 +49,9 @@ public class Door : MonoBehaviour
                 anim.SetBool("Open", true);
                 anim.SetBool("Close", false);
                 openDoorLocked = true;
+
+                sound.clip = clips[0];
+                sound.Play();
             }
             else
             {
