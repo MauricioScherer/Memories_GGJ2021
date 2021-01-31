@@ -47,8 +47,6 @@ public class PuzzleMenina : MonoBehaviour
             int p_sort = Random.Range(0, clipsChoro.Length);
             choro.clip = clipsChoro[p_sort];
             choro.Play();
-
-            print(p_sort);
         }
 
         if(moveHaste)

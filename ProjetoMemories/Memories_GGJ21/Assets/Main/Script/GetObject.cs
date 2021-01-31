@@ -186,69 +186,90 @@ public class GetObject : MonoBehaviour
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && !chaveBlue.activeSelf || !chaveRed.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    chaveGreen.SetActive(true);
+                    if(!chaveBlue.activeSelf || !chaveRed.activeSelf)
+                    {
+                        chaveGreen.SetActive(true);
+                        Destroy(hit.collider.gameObject);
+                    }
                 }
             }
             else if (hit.collider.CompareTag("ChaveBlue"))
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && !chaveGreen.activeSelf || !chaveRed.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    chaveBlue.SetActive(true);
+                    if(!chaveGreen.activeSelf || !chaveRed.activeSelf)
+                    {
+                        chaveBlue.SetActive(true);
+                        Destroy(hit.collider.gameObject);
+                    }
                 }
             }
             else if (hit.collider.CompareTag("ChaveRed"))
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && !chaveGreen.activeSelf || !chaveBlue.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    chaveRed.SetActive(true);
+                    if(!chaveGreen.activeSelf || !chaveBlue.activeSelf)
+                    {
+                        chaveRed.SetActive(true);
+                        Destroy(hit.collider.gameObject);
+                    }
                 }
             }
             else if (hit.collider.CompareTag("PainelChaveGreen"))
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && chaveGreen.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
-                    chaveGreen.SetActive(false);
-                }
-                else
-                {
-                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    if(chaveGreen.activeSelf)
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                        chaveGreen.SetActive(false);
+                    }
+                    else
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    }
                 }
             }
             else if (hit.collider.CompareTag("PainelChaveBlue"))
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && chaveBlue.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
-                    chaveBlue.SetActive(false);
-                }
-                else
-                {
-                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    if(chaveBlue.activeSelf)
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                        chaveBlue.SetActive(false);
+                    }
+                    else
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    }
                 }
             }
             else if (hit.collider.CompareTag("PainelChaveRed"))
             {
                 visualizeObject = true;
 
-                if (Input.GetMouseButtonDown(0) && chaveRed.activeSelf)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
-                    chaveRed.SetActive(false);
-                }
-                else
-                {
-                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    if(chaveRed.activeSelf)
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                        chaveRed.SetActive(false);
+                    }
+                    else
+                    {
+                        hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                    }
                 }
             }
             else
