@@ -25,6 +25,7 @@ TagManager:
   - PainelChaveGreen
   - PainelChaveBlue
   - PainelChaveRed
+  - Sofa
   layers:
   - Default
   - TransparentFX
