@@ -17,6 +17,9 @@ public class GetObject : MonoBehaviour
     [SerializeField] private GameObject fita1InHand;
     [SerializeField] private GameObject fita2InHand;
     [SerializeField] private Transform player;
+    [SerializeField] private GameObject chaveGreen;
+    [SerializeField] private GameObject chaveBlue;
+    [SerializeField] private GameObject chaveRed;
 
     void Update()
     {
@@ -177,6 +180,75 @@ public class GetObject : MonoBehaviour
                 if (Input.GetMouseButtonDown(0))
                 {
                     hit.collider.GetComponent<Botao>().Click();
+                }
+            }
+            else if (hit.collider.CompareTag("ChaveGreen"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && !chaveBlue.activeSelf || !chaveRed.activeSelf)
+                {
+                    chaveGreen.SetActive(true);
+                }
+            }
+            else if (hit.collider.CompareTag("ChaveBlue"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && !chaveGreen.activeSelf || !chaveRed.activeSelf)
+                {
+                    chaveBlue.SetActive(true);
+                }
+            }
+            else if (hit.collider.CompareTag("ChaveRed"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && !chaveGreen.activeSelf || !chaveBlue.activeSelf)
+                {
+                    chaveRed.SetActive(true);
+                }
+            }
+            else if (hit.collider.CompareTag("PainelChaveGreen"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && chaveGreen.activeSelf)
+                {
+                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                    chaveGreen.SetActive(false);
+                }
+                else
+                {
+                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                }
+            }
+            else if (hit.collider.CompareTag("PainelChaveBlue"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && chaveBlue.activeSelf)
+                {
+                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                    chaveBlue.SetActive(false);
+                }
+                else
+                {
+                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
+                }
+            }
+            else if (hit.collider.CompareTag("PainelChaveRed"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0) && chaveRed.activeSelf)
+                {
+                    hit.collider.GetComponent<ChavePainel>().ColocaChave();
+                    chaveRed.SetActive(false);
+                }
+                else
+                {
+                    hit.collider.GetComponent<ChavePainel>().ChaveErrada();
                 }
             }
             else

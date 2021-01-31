@@ -19,6 +19,12 @@ TagManager:
   - Radio2
   - DoorArmario
   - Botao
+  - ChaveGreen
+  - ChaveBlue
+  - ChaveRed
+  - PainelChaveGreen
+  - PainelChaveBlue
+  - PainelChaveRed
   layers:
   - Default
   - TransparentFX

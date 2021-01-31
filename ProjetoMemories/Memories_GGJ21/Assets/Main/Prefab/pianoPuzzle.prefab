@@ -162,6 +162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7835e49223e36418131d578e5fa852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 0
+  piano: {fileID: 0}
 --- !u!82 &2437944119654600922
 AudioSource:
   m_ObjectHideFlags: 0
@@ -317,7 +319,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -480,7 +482,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -582,6 +584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7835e49223e36418131d578e5fa852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 0
+  piano: {fileID: 0}
 --- !u!82 &2437944120450423674
 AudioSource:
   m_ObjectHideFlags: 0
@@ -922,6 +926,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7835e49223e36418131d578e5fa852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 0
+  piano: {fileID: 0}
 --- !u!82 &2437944120717421445
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1077,7 +1083,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1158,7 +1164,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1342,6 +1348,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7835e49223e36418131d578e5fa852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 0
+  piano: {fileID: 0}
 --- !u!82 &2437944121131187226
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1518,6 +1526,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc7835e49223e36418131d578e5fa852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  value: 0
+  piano: {fileID: 0}
 --- !u!82 &2437944121358482333
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1680,7 +1690,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1728,6 +1738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f204ef72ad29b14d920c040ab4f0287, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  order: 
+  puzzleMenina: {fileID: 0}
 --- !u!1 &7760844201325311939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +1799,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 9139665101067834105, guid: 7d255be3f3f65ad4ab7b265635bcd633, type: 3}
+  - {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

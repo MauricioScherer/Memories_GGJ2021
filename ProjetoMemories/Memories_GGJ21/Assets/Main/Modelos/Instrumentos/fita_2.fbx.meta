@@ -3,7 +3,12 @@ guid: 1bfe46b1d32627d448cedeb5f6430b63
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sala_musica_mat
+    second: {fileID: 2100000, guid: ef549b3b9fedbc54ea68f15abe1efb8f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
