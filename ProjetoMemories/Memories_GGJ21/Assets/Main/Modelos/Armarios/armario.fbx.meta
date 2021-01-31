@@ -3,7 +3,12 @@ guid: 25b5dfe1e2144414592d16ae4631daa2
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: armarios_mat
+    second: {fileID: 2100000, guid: 09522c3bcb5b36147bd31761c7d9ef8e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -3,7 +3,12 @@ guid: 027cf61b14785034a9cbd6c41ec966ac
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: caixas_luz_painel_chaves_botao_mat
+    second: {fileID: 2100000, guid: 66d522c1c99c3ee46b31a929ff2531ae, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

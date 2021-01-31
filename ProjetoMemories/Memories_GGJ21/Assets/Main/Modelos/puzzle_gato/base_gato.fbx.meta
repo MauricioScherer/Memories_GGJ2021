@@ -3,7 +3,12 @@ guid: 9edfe371ff81c844b92ebc0e1eb1b8f7
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: puzzle_gato_mat
+    second: {fileID: 2100000, guid: ed4eecc337c7e924c8989c9b7c63d12f, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
