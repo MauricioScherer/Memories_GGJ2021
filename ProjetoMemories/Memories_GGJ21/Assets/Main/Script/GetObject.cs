@@ -272,6 +272,15 @@ public class GetObject : MonoBehaviour
                     }
                 }
             }
+            else if(hit.collider.CompareTag("Sofa"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<Sofa>().startCredito();
+                }
+            }
             else
             {
                 visualizeObject = false;

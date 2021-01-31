@@ -51,11 +51,6 @@ public class PuzzleBullyng : MonoBehaviour
             }
         }
 
-        if(Input.GetKeyDown("t"))
-        {
-            Click();
-        }
-
         if(move)
         {
             boneco1.position = Vector3.MoveTowards(boneco1.position, targetBoneco1.position, speed * Time.deltaTime);
