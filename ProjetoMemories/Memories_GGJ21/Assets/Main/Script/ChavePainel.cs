@@ -12,10 +12,13 @@ public class ChavePainel : MonoBehaviour
     [SerializeField] AudioSource soundColocaChave;
     [SerializeField] AudioSource soundChaveErrada;
 
+    [SerializeField] GameObject chave;
+
     public void ColocaChave()
     {
         soundColocaChave.Play();
         painel.Click();
+        chave.SetActive(true);
         luzPainel.material = matLuzOK;
     }
 

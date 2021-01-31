@@ -21,6 +21,7 @@ public class TeclaPiano : MonoBehaviour
     {
         nota.Play();
         click.SetTrigger("Click");
-        piano.CheckOrder(value);
+        if(piano)
+            piano.CheckOrder(value);
     }
 }
