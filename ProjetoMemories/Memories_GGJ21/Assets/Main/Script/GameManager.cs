@@ -24,6 +24,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private AudioSource vO;
 
+    private bool final;
+    [SerializeField] private GameObject conjFinal;
+    [SerializeField] private GameObject conjPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,13 +38,16 @@ public class GameManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            if(!pauseMenu.activeSelf)
+            if(!final)
             {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                if (!pauseMenu.activeSelf)
+                {
+                    Cursor.lockState = CursorLockMode.None;
+                    Cursor.visible = true;
 
-                pauseMenu.SetActive(true);
-                Time.timeScale = 0.0f;
+                    pauseMenu.SetActive(true);
+                    Time.timeScale = 0.0f;
+                }
             }
         }
 
@@ -54,6 +61,11 @@ public class GameManager : MonoBehaviour
                 music.volume = volumeMusic;
                 volumeReduce = false;
             }
+        }
+
+        if(final)
+        {
+            music.volume -= 0.002f;
         }
     }
 
@@ -133,5 +145,12 @@ public class GameManager : MonoBehaviour
     {
         vO.clip = p_clip;
         vO.Play();
+    }
+
+    public void Final()
+    {
+        final = true;
+        conjFinal.SetActive(true);
+        conjPlayer.SetActive(false);
     }
 }

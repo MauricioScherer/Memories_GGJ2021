@@ -18,6 +18,7 @@ public class VO : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             gameManager.PlayVO(clip);
+            Destroy(gameObject);
         }
     }
 }
