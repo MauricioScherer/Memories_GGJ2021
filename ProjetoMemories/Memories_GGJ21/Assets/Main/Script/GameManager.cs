@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public bool volumeReduce;
 
     [SerializeField] private AudioSource vO;
+    [SerializeField] private AudioClip[] clipsVOStart;
 
     private bool final;
     [SerializeField] private GameObject conjFinal;
@@ -32,6 +33,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         volumeMusic = music.volume;
+
+        PlayVO(clipsVOStart[PlayerPrefs.GetInt("Language")]);
     }
 
     private void Update()

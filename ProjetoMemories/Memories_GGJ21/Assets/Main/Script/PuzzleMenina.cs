@@ -36,6 +36,7 @@ public class PuzzleMenina : MonoBehaviour
     [SerializeField] AudioClip[] clipsChoro;
     [SerializeField] Material matMeninaFeliz;
     [SerializeField] MeshRenderer meshMenina;
+    [SerializeField] AudioSource smile;
 
 
     private void Start()
@@ -69,6 +70,7 @@ public class PuzzleMenina : MonoBehaviour
                     menina.SetTrigger("PegarBalao");
                     moveParede = true;
                     choro.Stop();
+                    smile.Play();
 
                     meshMenina.material = matMeninaFeliz;
 
