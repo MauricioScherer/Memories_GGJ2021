@@ -6,7 +6,7 @@ public class VO : MonoBehaviour
 {
     private GameManager gameManager;
 
-    [SerializeField] AudioClip clip;
+    [SerializeField] AudioClip[] clips;
 
     private void Start()
     {
@@ -17,7 +17,7 @@ public class VO : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            gameManager.PlayVO(clip);
+            gameManager.PlayVO(clips[PlayerPrefs.GetInt("Language")]);
             Destroy(gameObject);
         }
     }
