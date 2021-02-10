@@ -10,6 +10,7 @@ public class PuzzleMenina : MonoBehaviour
 
     private bool moveParede;
     private bool moveMenina;
+    private bool fimPuzzle;
     private GameManager gameManager;
 
     [SerializeField] AudioClip clipMusic; 
@@ -33,6 +34,8 @@ public class PuzzleMenina : MonoBehaviour
     [SerializeField] AudioSource trilhoMeninaMove;
     [SerializeField] AudioSource choro;
     [SerializeField] AudioClip[] clipsChoro;
+    [SerializeField] Material matMeninaFeliz;
+    [SerializeField] MeshRenderer meshMenina;
 
 
     private void Start()
@@ -42,7 +45,7 @@ public class PuzzleMenina : MonoBehaviour
 
     private void Update()
     {
-        if(!choro.isPlaying && !moveMenina)
+        if(!choro.isPlaying && !moveMenina && !fimPuzzle)
         {
             int p_sort = Random.Range(0, clipsChoro.Length);
             choro.clip = clipsChoro[p_sort];
@@ -55,6 +58,7 @@ public class PuzzleMenina : MonoBehaviour
 
             if(hasteBalao.position == currentTarget.position)
             {
+                soundHaste.Stop();
                 moveHaste = false;
 
                 if(status == 2)
@@ -65,6 +69,8 @@ public class PuzzleMenina : MonoBehaviour
                     menina.SetTrigger("PegarBalao");
                     moveParede = true;
                     choro.Stop();
+
+                    meshMenina.material = matMeninaFeliz;
 
                     soundParede.Play();
                     gameManager.SetClipMusic(clipMusic);
@@ -81,6 +87,8 @@ public class PuzzleMenina : MonoBehaviour
             {
                 soundParede.Stop();
                 moveMenina = true;
+                fimPuzzle = true;
+                choro.Stop();
                 trilhoMeninaMove.Play();
                 moveParede = false;
             }

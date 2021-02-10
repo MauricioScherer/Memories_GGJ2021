@@ -281,6 +281,15 @@ public class GetObject : MonoBehaviour
                     hit.collider.GetComponent<Sofa>().startCredito();
                 }
             }
+            else if(hit.collider.CompareTag("Instrumento"))
+            {
+                visualizeObject = true;
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    hit.collider.GetComponent<Instrumento>().PlayInstrument();
+                }
+            }
             else
             {
                 visualizeObject = false;

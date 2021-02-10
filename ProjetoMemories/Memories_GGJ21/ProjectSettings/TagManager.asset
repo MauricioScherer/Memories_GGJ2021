@@ -26,6 +26,7 @@ TagManager:
   - PainelChaveBlue
   - PainelChaveRed
   - Sofa
+  - Instrumento
   layers:
   - Default
   - TransparentFX
