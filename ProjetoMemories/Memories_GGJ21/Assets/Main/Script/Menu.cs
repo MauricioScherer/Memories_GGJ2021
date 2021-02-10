@@ -14,4 +14,9 @@ public class Menu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void SelectLanguage(int p_value)
+    {
+        PlayerPrefs.SetInt("Language", p_value);
+    }
 }
